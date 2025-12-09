@@ -1,0 +1,92 @@
+.schedule-playoffs-modal .modal-content {
+  border-radius: 20px;
+  border: none;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+}
+
+.schedule-playoffs-modal .modal-header-custom {
+  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+  color: white;
+  border-radius: 20px 20px 0 0;
+  padding: 1.5rem;
+  border-bottom: none;
+}
+
+.schedule-playoffs-modal .modal-title-custom {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.schedule-playoffs-modal .modal-body-custom {
+  padding: 2rem;
+  max-height: 70vh;
+  overflow-y: auto;
+}
+
+.schedule-playoffs-modal .modal-footer-custom {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 1rem 2rem;
+}
+
+.add-match-form-card {
+  border: 2px solid rgba(245, 87, 108, 0.2);
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(245, 87, 108, 0.1);
+}
+
+.add-match-form-card .card-header {
+  background: linear-gradient(135deg, rgba(245, 87, 108, 0.1) 0%, rgba(240, 147, 251, 0.1) 100%);
+  border-bottom: 2px solid rgba(245, 87, 108, 0.2);
+  border-radius: 15px 15px 0 0;
+  padding: 1rem 1.5rem;
+}
+
+.add-match-form-card .card-body {
+  padding: 1.5rem;
+}
+
+.schedule-playoffs-modal table {
+  font-size: 0.9rem;
+}
+
+.schedule-playoffs-modal table thead {
+  background: linear-gradient(135deg, rgba(245, 87, 108, 0.1) 0%, rgba(240, 147, 108, 0.1) 100%);
+}
+
+.schedule-playoffs-modal table th {
+  font-weight: 600;
+  color: #333;
+  border-bottom: 2px solid rgba(245, 87, 108, 0.2);
+}
+
+.schedule-playoffs-modal table td {
+  vertical-align: middle;
+}
+
+.schedule-playoffs-modal .badge {
+  font-size: 0.85rem;
+  padding: 0.4rem 0.7rem;
+}
+
+.schedule-playoffs-modal .card-header.bg-info {
+  background: linear-gradient(135deg, #17a2b8 0%, #138496 100%) !important;
+}
+
+.schedule-playoffs-modal .card-header.bg-warning {
+  background: linear-gradient(135deg, #ffc107 0%, #e0a800 100%) !important;
+}
+
+.schedule-playoffs-modal .card-header.bg-danger {
+  background: linear-gradient(135deg, #dc3545 0%, #c82333 100%) !important;
+}
+
+@media (max-width: 768px) {
+  .schedule-playoffs-modal .modal-body-custom {
+    padding: 1rem;
+  }
+
+  .schedule-playoffs-modal table {
+    font-size: 0.8rem;
+  }
+}
+

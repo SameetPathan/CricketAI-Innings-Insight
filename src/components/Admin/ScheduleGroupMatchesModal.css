@@ -1,0 +1,80 @@
+.schedule-matches-modal .modal-content {
+  border-radius: 20px;
+  border: none;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+}
+
+.schedule-matches-modal .modal-header-custom {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-radius: 20px 20px 0 0;
+  padding: 1.5rem;
+  border-bottom: none;
+}
+
+.schedule-matches-modal .modal-title-custom {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.schedule-matches-modal .modal-body-custom {
+  padding: 2rem;
+  max-height: 70vh;
+  overflow-y: auto;
+}
+
+.schedule-matches-modal .modal-footer-custom {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 1rem 2rem;
+}
+
+.add-match-form-card {
+  border: 2px solid rgba(102, 126, 234, 0.2);
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.1);
+}
+
+.add-match-form-card .card-header {
+  background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%);
+  border-bottom: 2px solid rgba(102, 126, 234, 0.2);
+  border-radius: 15px 15px 0 0;
+  padding: 1rem 1.5rem;
+}
+
+.add-match-form-card .card-body {
+  padding: 1.5rem;
+}
+
+.schedule-matches-modal table {
+  font-size: 0.9rem;
+}
+
+.schedule-matches-modal table thead {
+  background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%);
+}
+
+.schedule-matches-modal table th {
+  font-weight: 600;
+  color: #333;
+  border-bottom: 2px solid rgba(102, 126, 234, 0.2);
+}
+
+.schedule-matches-modal table td {
+  vertical-align: middle;
+}
+
+.schedule-matches-modal .badge {
+  font-size: 0.85rem;
+  padding: 0.4rem 0.7rem;
+}
+
+@media (max-width: 768px) {
+  .schedule-matches-modal .modal-body-custom {
+    padding: 1rem;
+  }
+
+  .schedule-matches-modal table {
+    font-size: 0.8rem;
+  }
+}
+
